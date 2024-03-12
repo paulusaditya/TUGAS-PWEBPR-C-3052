@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: #d9d9d9;
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  top: 0; /* Menentukan posisi atas navbar */
+  left: 0; /* Menentukan posisi kiri navbar */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  line-height: 45px;
+  padding-inline: 9vw;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  z-index: 1000; /* Menentukan lapisan penutupan */
+}
+
+.nav_list {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  padding-inline: 15px;
+  margin-inline: 20px;
+  color: black;
+}
+
+.active-link {
+  position: relative;
+  transition: 0.3;
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+}
+
+.container-1 {
+  /* background-color: yellow; */
+  font-size: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.profesi-box {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: inline-block;
+  width: 1018px;
+  height: 1000px;
+  top: 143px;
+  left: 131px;
+}
+
+.profesi-tentara {
+  width: 490px;
+  height: 230px;
+  top: 50px;
+  left: 0px;
+  background-color: #d5ffdd;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.tentara {
+  font-family: Poppins;
+  text-align: left;
+  flex-direction: column;
+  width: 490px;
+}
+
+.tentara-img img {
+    position: relative;
+    top: -40px;
+    width: 270px;
+    left: -20px;
+}
+
+.tentara-text {
+  position: absolute;
+  padding: 10px;
+  font-family: Poppins;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 47px;
+  top: 10px;
+  left: 200px;
+}
+
+.tentara h5 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.tentara p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.pilihTentara {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #399349;
+  color: white;
+  width: 150%;
+  border-radius: 15px;
+  margin-top: 70px;
+  border: none;
+  font-style: normal;
+}
+
+.pilihTentara:hover {
+    background-color: red;
+}
+
+.profesi-arsitek {
+  width: 235px;
+  height: 180px;
+  top: 70px;
+  left: 0px;
+  background-color: #fff4dc;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.arsitek-text {
+  position: absolute;
+  padding: 10px;
+  font-family: Poppins;
+  height: 47px;
+  top: 130px;
+  left: 25px;
+}
+
+.arsitek-img {
+  position: relative;
+  top: 5px;
+}
+
+.pilihArsitek {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #e29a00;
+  color: white;
+  width: 200%;
+  border-radius: 15px;
+  border: none;
+  font-style: normal;
+  position: relative;
+  left: 10px;
+}
+
+.pilihArsitek:hover {
+    background-color: red;
+}
+
+.profesi-suster {
+  width: 235px;
+  height: 180px;
+  top: 90px;
+  left: 0px;
+  background-color: #ffced7;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.suster-text {
+  position: absolute;
+  padding: 10px;
+  font-family: Poppins;
+  height: 47px;
+  top: 130px;
+  left: 25px;
+}
+
+.suster-img {
+  position: relative;
+  top: 5px;
+}
+
+.pilihSuster {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #ff5573;
+  color: white;
+  width: 200%;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  left: 10px;
+}
+
+.pilihSuster:hover {
+    background-color: red;
+}
+
+.profesi-fotographer {
+  width: 235px;
+  height: 380px;
+  top: -290px;
+  left: 260px;
+  background-color: #e2f2ff;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.fotographer-text {
+  position: absolute;
+  padding: 40px;
+  font-family: Poppins;
+  height: 47px;
+  top: 130px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fotographer-img {
+  position: relative;
+  top: 40px;
+}
+
+.pilihFotographer {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #3279af;
+  color: white;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  position: relative;
+  left: 0px;
+}
+.pilihFotographer:hover {
+    background-color: red;
+}
+
+.fotographer-text h5 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fotographer-text p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.profesi-dpi {
+  width: 503px;
+  height: 392px;
+  gap: 18px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  top: -920px;
+  left: 515px;
+  position: relative;
+}
+
+.profesi-dpi {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  align-items: center;
+}
+
+.profesi-dpi > dokter,
+pilot,
+ilmuan {
+  display: flex;
+  width: 423px;
+  height: 96px;
+  top: 50px;
+  left: 40px;
+  gap: 10px;
+}
+
+.pilihsaya {
+  width: 40%;
+  height: 22px;
+  left: -110px;
+  top: 60px;
+  border-radius: 10px;
+  background-color: #d8d6c1;
+  border: none;
+  position: relative;
+  align-items: center;
+  color: white;
+}
+
+.pilihsaya:hover {
+    background-color: red;
+}
+
+.fotodpi {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 20px;
+  left: 20px;
+}
+
+.dokter-box {
+  width: 423px;
+  height: 96px;
+  border: 1px;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 32px;
+  border: 1px solid #d8d6c1;
+}
+
+.pilot-box {
+  width: 423px;
+  height: 96px;
+  border: 1px;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #d8d6c1;
+}
+
+.ilmuan-box {
+  width: 423px;
+  height: 96px;
+  border: 1px;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #d8d6c1;
+}
+
+.text {
+  width: 133px;
+  height: 30px;
+  top: 30px;
+  display: flex;
+  left: 20px;
+  position: relative;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.last-profesi {
+  width: 503px;
+  height: 200px;
+  gap: 18px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  top: -880px;
+  left: 515px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.last-profesi-text > h5 {
+  text-align: left;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  position: relative;
+  top: 35px;
+}
+
+.last-profesi-button {
+    width: 100px;
+    height: 55px;
+    top: 42px;
+    left: -5px;
+    border-radius: 10px;    
+    background-color: #d8d6c1;
+    border: none;
+    position: relative;
+    align-items: center;
+    color: white;
+}
+.last-profesi-button:hover {
+    background-color: red;
+}
+
+.last-profesi-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.button {
+  width: 100px;
+  height: 55px;
+  top: 42px;
+  left: -5px;
+  border-radius: 10px;    
+  border: none;
+  position: relative;
+  align-items: center;
+  color: white;
+  top: -850px;
+  color: black;
+}
+

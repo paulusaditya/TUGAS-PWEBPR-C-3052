@@ -1,0 +1,369 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.card-tentara {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:#d5ffdd
+}
+
+.card-arsitek {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #fff4dc
+}
+
+.card-suster {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffced7;
+}
+
+.card-fotographer {
+    margin: 10px;
+    width: 289px;
+    height: 314px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #e2f2ff;
+}
+
+.card-dpi {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.card-pembalap {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #FFDBC5;
+}
+
+.card-astronout {
+    margin: 10px;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #8FC5ED;
+}
+.card-tentara img {
+    position: relative;
+    top: -40px;
+}
+.card-arsitek img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.card-suster img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.card-fotographer img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    position: relative;
+    top: -40px;
+}
+
+.card-dpi img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.card-pembalap img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.card-astronout img {
+    width: 230px;
+    height: 230px; 
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card-fotographer h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card-fotographer h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    position:relative;
+    top: -20px;
+}
+.card-tentara p {
+    margin-bottom: 10px;
+}
+
+.card-fotographer p {
+    margin-bottom: 10px;
+    position:relative;
+    top: -20px;
+    width: 70%;
+    left: 40px;
+    text-align: center;
+}
+
+.pilihTentara {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #399349;
+    color: white;
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-style: normal;
+    position: relative;
+    top: -120px;
+
+}
+
+.pilihTentara:hover {
+    background-color: red;
+}
+
+.pilihArsitek {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #e29a00;
+    color: white;
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-style: normal;
+    position: relative;
+    top: -25px;
+}
+
+.pilihArsitek:hover {
+    background-color: red;
+}
+
+.pilihSuster {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #ff5573;
+    color: white;
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    top: -25px;
+}
+
+.pilihSuster:hover {
+    background-color: red;
+}
+
+.pilihFotographer {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #3279af;
+    color: white;
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    top: -150px;
+}
+
+.pilihFotographer:hover {
+    background-color: red;
+}
+
+.pilihsaya {
+    width: 85%;
+    height: 40px;
+    top: -20px;
+    border-radius: 15px;
+    background-color: #d8d6c1;
+    border: none;
+    position: relative;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pilihsaya:hover {
+    background-color: red;
+}
+
+.last-profesi-button1{
+    width: 85%;
+    height: 40px;
+    top: -20px;
+    border-radius: 15px;    
+    background-color:  #E36415;
+    border: none;
+    position: relative;
+    align-items: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.last-profesi-button1:hover {
+    background-color: red;
+}
+
+.last-profesi-button{
+    width: 85%;
+    height: 40px;
+    top: -20px;
+    border-radius: 15px;    
+    background-color: #275E87;
+    border: none;
+    position: relative;
+    align-items: center;
+    color: white;
+    font-style:normal;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.last-profesi-button:hover {
+    background-color: red;
+}
+
+.button {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color:black;
+
+}
+
+
+/* Media query untuk perangkat mobile */
+@media (max-width: 425px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
