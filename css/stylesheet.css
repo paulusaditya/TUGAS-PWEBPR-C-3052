@@ -357,13 +357,20 @@ body {
 
 
 /* Media query untuk perangkat mobile */
-@media (max-width: 425px) {
+@media (min-width: 425px) {
     .content {
         flex-direction: column;
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header h1 {
+        padding-bottom: 20px;
     }
 
     .card {
         width: 100%;
     }
 }
+
